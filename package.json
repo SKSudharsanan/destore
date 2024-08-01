@@ -1,0 +1,13 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "deploy": "npx hardhat ignition deploy ./ignition/modules/DestoreModule.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.7"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
