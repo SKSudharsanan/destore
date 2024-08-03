@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+# Destore Smart Contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Destore is a toy decentralised ecommerce implementation. This has been my final year project in the year 2018 and I am replicating this after six years, for web3ssh.
 
-Try running some of the following tasks:
+This repository contains the smart contracts for this.
 
 ```shell
 npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+npm run deploy
 ```
